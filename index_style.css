@@ -1,0 +1,183 @@
+body {
+	background-image: url("smallgrid.png");
+	font-family: "Quicksand", sans-serif;
+	font-size: 20px;
+}
+
+p {
+	background-color: #ffffff; /*temp color */
+	font-family: verdana;
+	font-size: 20px;
+	padding-top: 5%;
+	text-align: center;
+}
+
+h {
+	border-top-style: dotted;
+	border-right-style: solid;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	font-size: 100px;
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+h1, h2, h3 {
+	color: #d49296;
+	
+}
+
+dl {
+	font-size: 20px;
+}
+
+dt {
+	color: #d49296;
+}
+
+
+
+
+/*style for containers*/
+#mainContainer {
+	margin-left: 25%;  /*starts where the navbar ends */
+	padding-left:10%;	/*starts in the middle of the page to wrap the inner content */
+	padding-right: 10%;
+	height: auto;
+	overflow-x: hidden;		
+}
+
+/* style for the middle container, holds the content */
+#innerContainer {
+	background-color: white;
+	padding: 25px 25px 25px 25px;
+	height: auto;
+	position: relative;
+}
+
+.container {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: auto;
+	height: auto;
+	position: relative;
+	
+}
+
+
+
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */
+/* STYLE FOR CONTENT IMAGES & ANIMATION */
+.image {
+	display: block;
+	width: 100%;
+ 
+}
+
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	right: 0;
+	background-color: #d49296;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+}
+
+
+.container:hover .overlay {
+	width: 100%;
+	left: 0;
+}
+
+.contentLinks {
+	white-space: nowrap;
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+/* NAVBAR STYLING */
+.sidenav { 
+	height: 100%;
+	width: 25%; 
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #ffe8ea;
+	overflow-x: hidden;  /* hides horizontal scroll bar */
+	padding-top: 20px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #ffffff;
+	
+}
+
+/* to center content w3 cite */
+.img-responsive {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+#portrait {
+	border-radius: 8px;
+	
+}
+
+.main {
+	margin-left: 160px;
+}
+
+/* LINK styling */
+.resume {
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+
+.ochs {
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+
+
+/*Responsive design */
+@media screen and (max-width: 600px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+	h,h1 {font-size: 30px;}
+	h2 {font-size: 20px;}
+	body {font-size: 15px;}
+	dt {font-size: 20px;}
+	dd {font-size: 15px;}
+	.contentLinks {font-size: 20px;}
+}
