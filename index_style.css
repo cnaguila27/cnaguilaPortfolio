@@ -70,9 +70,11 @@ dt {
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */
 /* STYLE FOR CONTENT & ANIMATION */
 
-video{
-	width: 50%;
-	height: 50%;
+video {
+	width: 450px;
+	height: 475px;
+	display: block;
+	margin-left: 10%;
 }
 
 /*CLASSES*/
