@@ -77,6 +77,10 @@ video {
 	margin-left: 10%;
 }
 
+#floatParagraph {
+	float: left;
+}
+
 /*CLASSES*/
 .image {
 	display: block;
