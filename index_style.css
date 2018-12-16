@@ -62,20 +62,24 @@ dt {
 	width: auto;
 	height: auto;
 	position: relative;
-	
 }
 
 
 
 
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */
-/* STYLE FOR CONTENT IMAGES & ANIMATION */
+/* STYLE FOR CONTENT & ANIMATION */
+
+video{
+	width: auto;
+	height: auto;
+}
+
+/*CLASSES*/
 .image {
 	display: block;
 	width: 100%;
- 
 }
-
 
 .overlay {
 	position: absolute;
