@@ -68,10 +68,6 @@ h3 {
 	padding-left: 18%;
 }
 
-.hsVideoContainer {
-	width: 800px;
-	height: 600px;
-}
 
 
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */
@@ -86,6 +82,11 @@ h3 {
 video {
 	width: 500px;
 	height: 500px;
+}
+
+#hsVideo {
+	width: 800px;
+	height: 600px;
 }
 
 .overlay {
