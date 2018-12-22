@@ -105,6 +105,8 @@ h3 {
 
 #loFi {
 	border-style: solid;
+	border-color: #000000;
+	border-width: 5px;
 }
 
 
