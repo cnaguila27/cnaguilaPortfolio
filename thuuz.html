@@ -20,6 +20,11 @@ https://cnaguila2770.myportfolio.com/
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="index_style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand"> <!-- custom font -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+ 
+  
   <title> Thuuz </title>
 </head>
 
@@ -46,81 +51,89 @@ https://cnaguila2770.myportfolio.com/
 			
 			
 			<h1> The App: Thuuz Sports </h1>
-			<video controls>
-  				<source src="ThuuzApp.mp4" type="video/mp4">
-			</video>
-			<!--<img class="img-responsive" src="Thuuz4.jpg" alt="content">-->
-			
-			<p id="floatParagraph">
+			<p>
 			Thuuz is a mobile sports application that provides its users with game statistics and highlights of their favorite sports. 
 			However, the app differentiantes itself from its competitors with an unique algorithm that determines the excitement of 
 			games and ranks them based on a numerical scale from 0-100. Although it is a promising feature, 
 			it is unfortunately masked by the various usability issues found through user research our team conducted. </p>
 
 			
-			<h2> Usability Issues </h2>
-			<dl> 
-				<dt> Information overload </dt>
-				<dd> Users were overwhelmed and confused with the amount of information being presented. For example,
-					 too many games were being displayed in the home page. </dd> 
-				
-				<img class="img-responsive" src="InformationOverload.jpg" alt="content image">
+			<h1> Usability Issues </h1>
+			
+			<h3> Information overload </h3>
+			<p> Users were overwhelmed and confused with the amount of information being presented. For example,
+				 too many games were being displayed in the home page. Information was not paraphrased in the game previews. </p> 
+			
+			<img class="img-responsive" src="InformationOverload2.jpg" alt="content image">
+				 
+				 
+			<h3 class="borderHeader"> Bad use of fonts & color </h3>
+			<p> Users had a hard time with the representation of buttons and fonts, which led users to be unable 
+				 to find buttons for the actions they were looking for. For example, it is hard to see the "No, maybe later" option
+				 because it is in a small font, the font color does not contrast with the background, and it is placed at the bottom
+				 of the screen. </p> 
+			
+			<img class="img-responsive" src="BadUse.jpg" alt="content image">
+			
+				 
+				 
+			<h3 class="borderHeader"> Counter-intuitive navigation </h3>
+			<p> The navigation of the application has several aspects that are counter-intuitive and do not follow industry standards, 
+				 which caused confusion in our users. For example, the user had no indication they could swipe left or right on the 
+				 homepage to navigate to future game dates, since the indicators at the bottom of the page are hard to see. Our users pointed out that 
+				 the labels for the dates were displayed in inconsistent formats. Also, they were unsure where buttons like "My Sports" and "check in" would lead
+				 them to.</p> 
+				 
+			<img class="img-responsive" src="CounterIntuitive.jpg" alt="content image">
+				 
+				 
+			<h3 class="borderHeader"> Confusion of Excitement Score </h3>
+			<p> Users did not find the excitement score easily and questioned the purpose of it. This is significant because 
+				 the excitement score is the feature that sets it apart from other competitors, yet it is muddled by all the present 
+				 usability issues. Furthermore, our users could not find additional information in the game page that explained the
+				 match's current excitement score. </p>
+				 
+			<img class="img-responsive" src="ExcitementScore.png" alt="content image">
 					 
-					 
-				<dt> Bad use of fonts & color </dt>
-				<dd> Users had a hard time with the representation of buttons and fonts, which led users to be unable 
-					 to find buttons for the actions they were looking for. </dd> 
-					 
-					 
-				<dt> Counter-intuitive navigation </dt>
-				<dd> The navigation of the application has several aspects that are counter-intuitive and do not follow industry standards, 
-					 which caused confusion in our users. For example, the user had no indication they could swipe left or right on the 
-					 homepage to navigate to future game dates. </dd> 
-					 
-					 
-				<dt> Confusion of Excitement Score </dt>
-				<dd> Users did not find the excitement score easily and questioned the purpose of it. This is significant because 
-					 the excitement score is the feature that sets it apart from other competitors, yet it is muddled by all the present 
-					 usability issues. </dd>
-					 
-			</dl>
+			
 			
 			<h1> Prototypes </h1>
 			
 			
 			
-			<h1> Our redesign </h1>
-			
+			<h1> Our redesign </h1>	
 			<img class="img-responsive" src="Thuuzafter.png" alt="content image">
 			<img class="img-responsive" src="Thuuzafter2.png" alt="content image">
 			
 			<p> As a way to alleviate some of these issues, we came up with the following redesign goals: </p>
 			
 			<!-- list with description w3 cite -->
-			<dl>
-				<dt> Present the right information </dt>
-				<dd> The original design crowded too much information within the homepage. Our new design separates and prioritizes information 
-				     as seen in Figure 2. This allows users to find what they're looking for almost immediately. In addition, we added an universal 
-					 search functionality, which also allows users to make searches and a filter option in which they can choose what information 
-					 they want to see on their feed.</dd>
-				
-				<dt> Visual consistency of elements </dt>
-				<dd> In all of the above figures, we used universal titles that are recognizable to users, and we adhered to standard iOS design 
-				     guidelines for placement of buttons.</dd>
-				
-				<dt> Make navigation clear & simple </dt>
-				<dd> As seen in Figure 2, we created a vertical pop-up menu which the user can access at all times by clicking the T bubble at 
-				     the bottom right corner.</dd>
-				
-				<dt> Emphasize excitemet score </dt>
-				<dd> As seen in Figure 4, we created a chart that improves the display of the excitement score calculated throughout the game. 
-				     Users would now be able to better understand the score and how it fits with the game they are watching.</dd>
-			</dl>
+			
+			<h3> Present the right information </h3>
+			<p> The original design crowded too much information within the homepage. Our new design separates and prioritizes information 
+				 as seen in Figure 2. This allows users to find what they're looking for almost immediately. In addition, we added an universal 
+				 search functionality, which also allows users to make searches and a filter option in which they can choose what information 
+				 they want to see on their feed.</p>
+			
+			<h3> Visual consistency of elements </h3>
+			<p> In all of the above figures, we used universal titles that are recognizable to users, and we adhered to standard iOS design 
+				 guidelines for placement of buttons.</p>
+			
+			<h3> Make navigation clear & simple </h3>
+			<p> As seen in Figure 2, we created a vertical pop-up menu which the user can access at all times by clicking the T bubble at 
+				 the bottom right corner.</p>
+			
+			<h3> Emphasize excitemet score </h3>
+			<p> As seen in Figure 4, we created a chart that improves the display of the excitement score calculated throughout the game. 
+				 Users would now be able to better understand the score and how it fits with the game they are watching.</p>
+		
 			
 			<h1> Inspiration and Motivations </h1>
-			 <p> In addition, we adhered to Nielsen's Heuristics when designing the new interface. We also took inspiration from the following 
-			    applications: Tumblr, and the App Store (iOS). Tumblr has a quick and easy-to-use, pop-up navigation which users can access any time. 
+			<img class="img-responsive" src="Inspiration.png" alt="content image">
+			 <p> We adhered to Nielsen's Heuristics when designing the new interface and took inspiration from the following 
+			    applications: Tumblr, and the App Store (iOS). Tumblr has a quick and easy-to-use, pop-up navigation for posting content which users can access any time. 
 				The App Store displays its content through the use of card-like tiles which present information in a clear and minimal way. </p>
+				
 		</div>
 	</div>
 </body>

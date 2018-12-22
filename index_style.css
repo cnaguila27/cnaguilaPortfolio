@@ -1,3 +1,4 @@
+/* TAG stylers */
 body {
 	background-image: url("smallgrid.png");
 	font-family: "Quicksand", sans-serif;
@@ -8,34 +9,36 @@ p {
 	background-color: #ffffff; /*temp color */
 	font-family: "Quicksand", sans-serif;
 	font-size: 20px;
-	padding-top: 5%;
-	text-align: center;
+	padding-bottom: 15px;
+	text-align: left;
 }
 
 h {
-	border-top-style: dotted;
-	border-right-style: solid;
-	border-bottom-style: dotted;
-	border-left-style: solid;
+
 	font-size: 100px;
 	padding-top: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
-h1, h2, h3 {
-	color: #d49296;
-	
+h1 {
+	color: #c98789;	
+	border-bottom-style: dotted;
 }
 
-dl {
-	font-size: 20px;
-}
-
-dt {
+h2, h3 {
 	color: #d49296;
 }
 
+h3 {
+	border-bottom-style:solid;
+}
+
+.borderHeader {
+	//border-top-style: solid;
+	border-bottom-style: solid;
+	padding-top: 15px;
+}
 
 
 
@@ -65,21 +68,8 @@ dt {
 }
 
 
-
-
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */
 /* STYLE FOR CONTENT & ANIMATION */
-
-video {
-	width: 450px;
-	height: 475px;
-	display: block;
-	margin-left: 10%;
-}
-
-#floatParagraph {
-	float: left;
-}
 
 /*CLASSES*/
 .image {
