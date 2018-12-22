@@ -64,6 +64,10 @@ h3 {
 	position: relative;
 }
 
+.videoContainer {
+	padding-left: 20%;
+}
+
 
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity */
 /* STYLE FOR CONTENT & ANIMATION */
@@ -72,6 +76,11 @@ h3 {
 .image {
 	display: block;
 	width: 100%;
+}
+
+video {
+	width: 500px;
+	height: 500px;
 }
 
 .overlay {
