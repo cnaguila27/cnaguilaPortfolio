@@ -79,6 +79,10 @@ h3 {
 	width: 100%;
 }
 
+.hsImage{
+	padding-bottom: 45px;
+}
+
 video {
 	width: 500px;
 	height: 500px;
