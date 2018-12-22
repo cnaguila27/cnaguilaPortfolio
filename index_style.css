@@ -64,8 +64,13 @@ h3 {
 	position: relative;
 }
 
-.videoContainer {
+#thuuzVideoContainer {
 	padding-left: 18%;
+}
+
+#hsVideoContainer {
+	width: 800px;
+	height: 600px;
 }
 
 
