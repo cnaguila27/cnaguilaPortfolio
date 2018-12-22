@@ -14,7 +14,6 @@ p {
 }
 
 h {
-
 	font-size: 100px;
 	padding-top: 5%;
 	padding-left: 10%;
@@ -31,15 +30,13 @@ h2, h3 {
 }
 
 h3 {
-	border-bottom-style:solid;
+	border-bottom-style: solid;
 }
 
 .borderHeader {
-	//border-top-style: solid;
 	border-bottom-style: solid;
 	padding-top: 15px;
 }
-
 
 
 /*style for containers*/
