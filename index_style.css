@@ -196,8 +196,8 @@ video {
 	h,h1 {font-size: 30px;}
 	h2 {font-size: 20px;}
 	body {font-size: 15px;}
-	dt {font-size: 20px;}
-	dd {font-size: 15px;}
 	.contentLinks {font-size: 20px;}
+	video {width: 200px; height: 300px;}
+	
 }
 
