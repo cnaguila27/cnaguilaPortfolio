@@ -201,3 +201,8 @@ video {
 	
 }
 
+@media screen and (min-width: 600px, max-width: 1500px){
+	#hsVideo{width: 500px; height: 400px;}
+}
+
+
