@@ -39,7 +39,7 @@ https://cnaguila2770.myportfolio.com/
 <body>	
 	<!-- Navbar specifications & Content -->
 	<div class="sidenav">
-		<img class="img-responsive img-circle" src="potato.jpg" alt="holder image"> <br>
+		<img class="img-responsive img-circle" src="potato.jpg" alt="holder image"> 
 		<a href="index.html">
 			<img class="img-responsive" src="CynthiaAguilar.png" alt="holder">
 		</a>
@@ -51,114 +51,165 @@ https://cnaguila2770.myportfolio.com/
 	<div id="mainContainer">
 		<div id="innerContainer">
 			<img class="img-responsive" src="thuuzlogo.png" alt="Header image">
-			<h1> Overview </h1>
-			<p> As a part of a project course, we were tasked to redesign an existing application, Thuuz Sports, 
-			through the use of Human-Computer Interaction principles. The emphasis was to improve 
-			the way in which users were experiencing the application and to justify our redesigns 
-				based on evidence-based design. </p>
+			<div id="contentContainer">
 			
-			
-			<h1> The App: Thuuz Sports </h1>
-			<p>
-			Thuuz is a mobile sports application that provides its users with game statistics and highlights of their favorite sports. 
-			However, the app differentiantes itself from its competitors with an unique algorithm that determines the excitement of 
-			games and ranks them based on a numerical scale from 0-100. Although it is a promising feature, 
-			it is unfortunately masked by the various usability issues found through user research our team conducted. </p>
-
-			
-			<h1> Usability Issues </h1>
-			<p> The following issues were found through conducting surveys & interviews on our users, a cognitive walkthrough, as well as using the 
-				think-aloud protocol in our usability tests.
-			
-			<h3> Information overload </h3>
-			<p> Users were overwhelmed and confused with the amount of information being presented. For example,
-				 too many games were being displayed in the home page. Information was not paraphrased in the game previews. </p> 
-			
-			<img class="img-responsive" src="InformationOverload2.JPG" alt="content image">
-				 
-				 
-			<h3 class="borderHeader"> Bad use of fonts & color </h3>
-			<p> Users had a hard time with the representation of buttons and fonts, which led users to be unable 
-				 to find buttons for the actions they were looking for. For example, it is hard to see the "No, maybe later" option
-				 because it is in a small font, the font color does not contrast with the background, and it is placed at the bottom
-				 of the screen. </p> 
-			
-			<img class="img-responsive" src="BadUse.JPG" alt="content image">
-			
-				 
-				 
-			<h3 class="borderHeader"> Counter-intuitive navigation </h3>
-			<p> The navigation of the application has several aspects that are counter-intuitive and do not follow industry standards, 
-				 which caused confusion in our users. For example, the user had no indication they could swipe left or right on the 
-				 homepage to navigate to future game dates, since the indicators at the bottom of the page are hard to see. Our users pointed out that 
-				 the labels for the dates were displayed in inconsistent formats. Also, they were unsure where buttons like "My Sports" and "check in" would lead
-				 them to.</p> 
-				 
-			<img class="img-responsive" src="CounterIntuitive.JPG" alt="content image">
-				 
-				 
-			<h3 class="borderHeader"> Confusion of Excitement Score </h3>
-			<p> Users did not find the excitement score easily and questioned the purpose of it. This is significant because 
-				 the excitement score is the feature that sets it apart from other competitors, yet it is muddled by all the present 
-				 usability issues. Furthermore, our users could not find additional information in the game page that explained the
-				 match's current excitement score. </p>
-				 
-			<img class="img-responsive" src="ExcitementScore.png" alt="content image">
-					 
-			
-			
-			<h1> Prototypes </h1>
-			
-			<h3 class="borderHeader"> Low-Fidelity Prototypes </h3>
-			<p> Below are some ideas that I envisioned for the new home page and a possible new search feature. </p>
-			<img id="loFi" class="img-responsive" src="loFiSketches.png" alt="content image">
-			
-			
-			<h3 class="borderHeader"> High-Fidelity Prototypes </h3>
-			<p> A cleaner & simpler app start up page that I envisioned for our redesign. The following tool was made
-			with Adobe XD. </p>
-			
-			<div class="thuuzVideoContainer">
-			  <video controls>
-			    <source src="SignUpPrototype.mp4" type="video/mp4">
-			  </video>
+				<image class="img-responsive" id="dividerImage" src="divider.png">
+				
+				<h1> Overview </h1>
+				
+				<div class="flex-container">
+					<div class="rectangle">
+						<image class="img-responsive" id="icon" src="calendar.png">
+						<p id="iconTitle"> Duration </p>
+						<p id="iconText"> April 2018 to June 2018 </p>
+						<p id="iconText"> (10 weeks) </p>
+					</div>
+					
+					<div class="rectangle">
+						<image class="img-responsive" id="icon" src="task.png">
+							<p id="iconTitle"> Task </p>
+							<p id="iconText"> Redesign an existing app using evidence-based design and UX research
+												methodologies. </p>
+					</div>
+				</div>
 			</div>
 			
+			<div id="contentContainer">
 			
-			<h1> Our redesign </h1>	
-			<img class="img-responsive" src="Thuuzafter.png" alt="content image">
-			<img class="img-responsive" src="Thuuzafter2.png" alt="content image">
+				<image class="img-responsive" id="dividerImage" src="divider.png">
+				
+				<h1> The App: Thuuz Sports </h1>
+				<p> Thuuz is a mobile sports application that provides its users with game statistics 
+					 and highlights of their favorite sports. However, the app differentiantes itself 
+					 from its competitors with an unique algorithm that determines the excitement of 
+					 games and ranks them based on a numerical scale from 0-100. Although it is a promising 
+					 feature, it is unfortunately masked by the various usability issues found through user 
+					 research our team conducted. </p>
+			</div>
 			
-			<p> As a way to alleviate some of these issues, we came up with the following redesign goals: </p>
+			<div id="contentContainer">
 			
-			<!-- list with description w3 cite -->
+				<image class="img-responsive" id="dividerImage" src="divider.png">
+				
+				<h1> Usability Issues </h1>	
+				<div id="cardContainer">
+					<h2> Information overload </h2>
+					<img class="img-responsive" id="hoverImage" src="InformationOverload.png" alt="holder image">				
+
+					<div class="smallMiddle">
+						<div id="middleText"> Users were confused and overwhelmed with the amount of information being presented. 
+										For example, too many games were displayed at once. 
+						</div>
+					</div>
+				</div>
+				
+				<div id="cardContainer">
+					<h2> Bad Use of Color & Font </h2>
+					<img class="img-responsive" id="hoverImage" src="BadUseScreens.png">
+					
+					<div class="smallMiddle">
+						<div id="middleText"> Users had a hard time with the representation of buttons and fonts. This disabled users
+									to find buttons for the actions they were looking for. 
+						</div>
+					</div>
+				</div>
+				
+				<div id="cardContainer">
+					<h2> Counter-intuitive navigation </h2>
+					<img class="img-responsive" id="hoverImage" src="CIntuitive.png">
+					
+					<div class="largeMiddle">
+						<div id="middleText"> The navigation of the app has several aspects that are counter-intuitive and do not follow 
+										industry standards, which caused confusion in our users. No clear indication of swiping left or right 
+										for date navigation, indicators were hard to see. Inconsistent labels and formats for dates. One screen 
+										displayed "Later Today" while the next displayed "12/31" as an example. 
+						</div>
+					</div>
+				</div>
+				
+				<div id="cardContainer">
+					<h2> Confusion of Excitement Score </h2>
+					<img class="img-responsive" id="hoverImage" src="ExcitementScoreScreens.png">
+					
+					<div class="largeMiddle">
+						<div id="middleText"> Users did not find the excitement score easily and questioned the purpose of it. This is significant 
+										because the  excitement score is the feature that sets it apart from other competitors, yet it is muddled 
+										by all the present usability issues. Furthermore, our users could not find additional information in the 
+										game page that explained the match's current excitement score.  
+						</div>
+					</div>
+				</div>
+				
+			</div>
 			
-			<h3> Present the right information </h3>
-			<p> The original design crowded too much information within the homepage. Our new design separates and prioritizes information 
-				 as seen in Figure 2. This allows users to find what they're looking for almost immediately. In addition, we added an universal 
-				 search functionality, which also allows users to make searches and a filter option in which they can choose what information 
-				 they want to see on their feed.</p>
+			<div id="contentContainer">
 			
-			<h3> Visual consistency of elements </h3>
-			<p> In all of the above figures, we used universal titles that are recognizable to users, and we adhered to standard iOS design 
-				 guidelines for placement of buttons.</p>
+				<image class="img-responsive" id="dividerImage" src="divider.png">
+				
+				<h1> Prototypes </h1>
+				<div id="cardContainer">
+					<h2> Low-Fidelity Prototype </h2>
+					<!--<img class="img-responsive" src="loFiSketches.png"> -->
+					
+				</div>
+				
+				<div id="cardContainer">
+					<h2> High-Fidelity Prototype </h2>
+					<!--<video controls>
+						<source src="ThuuzApp.mp4" type="video/mp4">
+					</video>-->
+				</div>
+			</div>
 			
-			<h3> Make navigation clear & simple </h3>
-			<p> As seen in Figure 2, we created a vertical pop-up menu which the user can access at all times by clicking the T bubble at 
-				 the bottom right corner.</p>
+			<div id="contentContainer">
 			
-			<h3> Emphasize excitemet score </h3>
-			<p> As seen in Figure 4, we created a chart that improves the display of the excitement score calculated throughout the game. 
-				 Users would now be able to better understand the score and how it fits with the game they are watching.</p>
+				<image class="img-responsive" id="dividerImage" src="divider.png">
+				
+				<h1> Our Redesign </h1>
+				<div id="cardContainer">
+					<img class="img-responsive" id="cardImage" src="infoScreen.png" alt="holder image">
+					<div id="cardContentMain">
+						<h2> Present the Right Information </h2>
+						<p id="cardP"> The original design crowded too much information within the homepage. Our new design separates and 
+										prioritizes information. This allows users to find what they're looking for almost 
+										immediately. In addition, we added an universal search functionality, which also allows users to make searches 
+										and a filter option in which they can choose what information they want to see on their feed. </p>
+					</div>
+				</div>
+				
+				
+				<div id="cardContainer">
+					<img class="img-responsive" id="cardImage" src="feedScreen.png">
+					<div id="cardContent">
+						<h2> Make Navigation Clear & Simple </h2>
+						<p id="cardP"> We created a vertical pop-up menu which the user can access at all times by 
+										clicking the T bubble at the bottom right corner. </p>
+					</div>
+				</div>
+				
+				<div id="cardContainer">
+					<img class="img-responsive" id="cardImage" src="scoreScreen.png">
+					<div id="cardContent">
+						<h2> Emphasize Excitement Score </h2>
+						<p id="cardP"> We created a chart that improves the display of the excitement score calculated throughout the game. 
+										Users would now be able to better understand the score and how it fits with the game they are watching.  </p>
+					</div>
+				</div>
+			</div>
 			
+			<div id="contentContainer">
 			
-			<h1> Inspiration and Motivations </h1>
-			<img class="img-responsive" src="Inspiration.png" alt="content image">
-			 <p> We adhered to Nielsen's Heuristics when designing the new interface and took inspiration from the following 
-			    applications: Tumblr, and the App Store (iOS). Tumblr has a quick and easy-to-use, pop-up navigation for posting content which users can access any time. 
-				The App Store displays its content through the use of card-like tiles which present information in a clear and minimal way. </p>
-			
-			<a class="resume" target="_blank" href="https://cnaguila27.github.io/cnaguilaPortfolio/ThuuzUXReport.pdf"> View UX Report </a>
+				<image class="img-responsive" id="dividerImage" src="divider.png">
+				
+				<h1> Inspirations </h1>
+				<img class="img-responsive" src="Inspiration.png" alt="content image">
+				<p> We adhered to Nielsen's Heuristics when designing the new interface and took inspiration from the following 
+					applications: Tumblr, and the App Store (iOS). Tumblr has a quick and easy-to-use, pop-up navigation for posting content which users can access any time. 
+					The App Store displays its content through the use of card-like tiles which present information in a clear and minimal way.
+					<a class="resume" target="_blank" href="https://cnaguila27.github.io/cnaguilaPortfolio/ThuuzUXReport.pdf"> View UX Report </a>
+					</p>
+					
+			</div>
 			
 		</div>
 	</div>
